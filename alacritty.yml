@@ -181,10 +181,10 @@ font:
 #draw_bold_text_with_bright_colors: false
 
 # Colors (Tomorrow Night)
-#colors:
+colors:
   # Default colors
-  #primary:
-  #  background: '#1d1f21'
+  primary:
+    background: '#012456'
   #  foreground: '#c5c8c6'
 
     # Bright and dim foreground colors
@@ -406,10 +406,10 @@ selection:
 #   - (macOS) /bin/bash --login
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
-shell:
-  program: 'C:\Windows\System32\wsl.exe'
-  args:
-   - ~ -d RHEL
+#shell:
+#  program: 'C:\Windows\System32\wsl.exe'
+#  args:
+#   - ~ -d RHEL
 
 # Startup directory
 #
